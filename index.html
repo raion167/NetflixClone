@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/main.css">
+    <script src="js/owl/modal.js"></script>
 
     <!--owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
@@ -16,18 +17,19 @@
     <title>OTAKUFLIX</title>
 </head>
 <body>
+<!--BARRA DE NAVEGAÇÃO-->
    <header>
        <div class="container">
            <h2 class="logo">OTAKUFLIX</h2>
            <nav>
                <a href="#">Início</a>
-               <a href="#">Mais assistidos</a>
+               <a href="mais-assistidos.html">Mais assistidos</a>
                <a href="#">Lançamentos da semana</a>          
                <a href="#">Em breve</a>                        
            </nav>
        </div>
    </header>
-
+<!--IMAGEM PRINCIPAL-->
    <main>
        <div class="filme-principal">
            <div class="container">
@@ -42,13 +44,18 @@
                     
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
+                            MAIS INFORMAÇÕES    
+                    </button>
+                    
+                    <button role="button" class="botao">
+                        <i class="fas fa-play-circle"></i>
+                        <a href="https://www.youtube.com/watch?v=faqmNf_fZlE" target="_blank">ASSISTIR A OPENING</a>
                     </button>
                </div>
            </div>      
        </div>
    </main>
-
+<!--CARROSEL DE FILMES-->
    <div class="carrosel-filmes">
        <div class="owl-carousel owl-theme">
             <div class="item">
@@ -91,7 +98,6 @@
             </div>
        </div>
    </div>
-
    <script src="https://kit.fontawesome.com/d90667f08f.js" crossorigin="anonymous"></script>
    <script src="js/owl/jquery.min.js"></script>
    <script src="js/owl/owl.carousel.min.js"></script>

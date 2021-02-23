@@ -2,7 +2,9 @@
     --vermelho: #e50914;
     --preta: #141414;
 }
-
+a{
+    text-decoration: none;
+}
 *{
     margin: 0;
     padding: 0;
@@ -76,8 +78,26 @@ header nav a:hover{
     cursor: pointer;
     transition: .3s ease all;
 }
+.botao a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 10px 20px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
 
 .botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao a:hover{
     background-color: white;
     color: black;
 }
@@ -95,11 +115,19 @@ header nav a:hover{
 }
 
 .box-filme{
+    padding: 0px;
     height: 100%;
     width: 100%;
     display: block;
 }
+.box-filme:hover{
+    padding: 5px;
+    transition: 1s;
 
+    box-shadow: 8 8 8 1px;
+    background-color: white; 
+    transition: 1s; 
+}
 .carrosel-filmes{
     margin-top: 5px;
 }
