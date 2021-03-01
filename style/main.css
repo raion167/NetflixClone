@@ -131,4 +131,7 @@ header nav a:hover{
 .carrosel-filmes{
     margin-top: 5px;
 }
+.animeInfo{
+    display: none;
+}
 
